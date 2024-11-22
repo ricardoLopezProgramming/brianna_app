@@ -54,7 +54,7 @@ public class EncargadoVentaDAOImpl implements EncargadoVentaDAO {
                 if (rs.next()) {
                     // Crear un objeto Cliente y asignar valores del ResultSet
                     cliente = new EncargadoVenta();
-                    cliente.setIdUsuario(rs.getLong("id"));
+                    cliente.setIdEncargadoVenta(rs.getLong("id"));
                     cliente.setNombre(rs.getString("nombre"));
                     cliente.setApellido(rs.getString("apellido"));
                     cliente.setFechaNacimiento(rs.getDate("fecha_nacimiento"));

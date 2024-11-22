@@ -2,11 +2,13 @@ package com.brianna.catalogo_ventas.v1.Controlador;
 
 import com.brianna.catalogo_ventas.v1.Modelo.dao.DAO;
 import com.brianna.catalogo_ventas.v1.Modelo.dao.daoImpl.ClienteDAOImpl;
+import com.brianna.catalogo_ventas.v1.Modelo.dao.daoImpl.EncargadoInventarioDAOImpl;
 import com.brianna.catalogo_ventas.v1.Modelo.dao.daoImpl.EncargadoVentaDAOImpl;
 import com.brianna.catalogo_ventas.v1.Modelo.entidad.Cliente;
 import com.brianna.catalogo_ventas.v1.Modelo.entidad.EncargadoVenta;
 import com.brianna.catalogo_ventas.v1.Modelo.servicio.Servicio;
 import com.brianna.catalogo_ventas.v1.Modelo.servicio.servicioImpl.ClienteServicioImpl;
+import com.brianna.catalogo_ventas.v1.Modelo.servicio.servicioImpl.EncargadoInventarioServicioImpl;
 import com.brianna.catalogo_ventas.v1.Modelo.servicio.servicioImpl.EncargadoVentaServicioImpl;
 
 import com.brianna.catalogo_ventas.v1.Vista.Vista;
@@ -60,7 +62,12 @@ public class SesionControlador implements ActionListener, FocusListener {
 
                 }
             } else if (vista.sesion.cbxUsuario.getSelectedItem().toString().equals("Encargado de inventario")) {
-                
+                EncargadoInventarioDAOImpl encargadoInventarioDAOImpl = new EncargadoInventarioDAOImpl();
+                EncargadoInventarioServicioImpl encargadoInventarioServicioImpl = new EncargadoInventarioServicioImpl(encargadoInventarioDAOImpl);
+                if (encargadoInventarioServicioImpl.iniciarSesion(usuario, contraseña) != null) {
+                    vista.serviciosEncargadoInventario();
+                    
+                }
             }
         } else if (e.getSource() == vista.sesion.btnRegistrarse) {
             vista.registro();

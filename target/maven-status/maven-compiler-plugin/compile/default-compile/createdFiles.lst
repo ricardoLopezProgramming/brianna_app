@@ -1,4 +1,5 @@
 com\brianna\catalogo_ventas\v1\Vista\RegistroVista$1.class
+com\brianna\catalogo_ventas\v1\Modelo\servicio\EncargadoInventarioServicio.class
 com\brianna\catalogo_ventas\v1\Modelo\dao\EncargadoVentaDAO.class
 com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\EncargadoVentaDAOImpl.class
 com\brianna\catalogo_ventas\v1\Modelo\servicio\ClienteServicio.class
@@ -9,6 +10,7 @@ com\brianna\catalogo_ventas\v1\Modelo\entidad\Almacen.class
 com\brianna\catalogo_ventas\v1\Modelo\persistencia\BD.class
 com\brianna\catalogo_ventas\v1\Vista\RegistroVista$9.class
 com\brianna\catalogo_ventas\v1\Vista\RegistrarProductoVista.class
+com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\ProveedorDAOImpl.class
 com\brianna\catalogo_ventas\v1\Controlador\util\DynamicGridExample$2.class
 com\brianna\catalogo_ventas\v1\Controlador\ComprasControlador.class
 com\brianna\catalogo_ventas\v1\Modelo\entidad\Subcategoria.class
@@ -33,6 +35,7 @@ com\brianna\catalogo_ventas\v1\Controlador\CatalogoControlador.class
 com\brianna\catalogo_ventas\v1\Modelo\dao\ProductoDAO.class
 com\brianna\catalogo_ventas\v1\Vista\Vista$1.class
 com\brianna\catalogo_ventas\v1\Vista\KARDEXVista.class
+com\brianna\catalogo_ventas\v1\Modelo\servicio\servicioImpl\EncargadoInventarioServicioImpl.class
 com\brianna\catalogo_ventas\v1\Vista\RegistroVista$8.class
 com\brianna\catalogo_ventas\v1\Vista\CatalogoVista.class
 com\brianna\catalogo_ventas\v1\Modelo\entidad\Persona.class
@@ -54,12 +57,14 @@ com\brianna\catalogo_ventas\v1\Modelo\dao\Perfil.class
 com\brianna\catalogo_ventas\v1\Modelo\dao\PersonaDAO.class
 com\brianna\catalogo_ventas\v1\Controlador\util\DynamicGridExample$1.class
 com\brianna\catalogo_ventas\v1\Modelo\servicio\EncargadoVentaServicio.class
+com\brianna\catalogo_ventas\v1\Vista\MisVentasVista.class
 com\brianna\catalogo_ventas\v1\Modelo\entidad\Kardex.class
 com\brianna\catalogo_ventas\v1\Controlador\util\DynamicGridExample.class
 com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\ProductoDAOImpl.class
 com\brianna\catalogo_ventas\v1\Vista\ComprasVista.class
 com\brianna\catalogo_ventas\v1\Vista\Facturas.class
 com\brianna\catalogo_ventas\v1\Vista\RegistroVista$3.class
+com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\EncargadoInventarioDAOImpl.class
 com\brianna\catalogo_ventas\v1\Vista\FormularioVista.class
 com\brianna\catalogo_ventas\v1\Modelo\servicio\servicioImpl\ClienteServicioImpl.class
 com\brianna\catalogo_ventas\v1\Modelo\dao\EncargadoInventarioDAO.class

@@ -4,7 +4,7 @@ import java.util.Date;
 
 public abstract class Persona {
 
-    protected Long idUsuario;
+    protected Long idPersona;
     protected String nombre;
     protected String apellido;
     protected Date fechaNacimiento;
@@ -19,12 +19,12 @@ public abstract class Persona {
     public Persona() {
     }
 
-    public Long getIdUsuario() {
-        return idUsuario;
+    public Long getIdPersona() {
+        return idPersona;
     }
 
-    public void setIdUsuario(Long idUsuario) {
-        this.idUsuario = idUsuario;
+    public void setIdPersona(Long idPersona) {
+        this.idPersona = idPersona;
     }
 
     public String getNombre() {
@@ -111,7 +111,7 @@ public abstract class Persona {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("{")
-                .append("\n\"id\": ").append(idUsuario).append(", ")
+                .append("\n\"id\": ").append(idPersona).append(", ")
                 .append("\n\"nombre\": \"").append(nombre).append("\", ")
                 .append("\n\"apellido\": \"").append(apellido).append("\", ")
                 .append("\n\"fechaNacimiento\": \"").append(fechaNacimiento).append("\", ")

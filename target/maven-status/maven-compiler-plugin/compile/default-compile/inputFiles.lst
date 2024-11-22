@@ -11,8 +11,10 @@ C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\briann
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\ClienteDAO.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\DAO.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\ClienteDAOImpl.java
+C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\EncargadoInventarioDAOImpl.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\EncargadoVentaDAOImpl.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\ProductoDAOImpl.java
+C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\daoImpl\ProveedorDAOImpl.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\EncargadoInventarioDAO.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\EncargadoVentaDAO.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\dao\Perfil.java
@@ -33,11 +35,13 @@ C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\briann
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\entidad\Usuario.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\persistencia\BD.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\ClienteServicio.java
+C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\EncargadoInventarioServicio.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\EncargadoVentaServicio.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\PersonaServicio.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\ProductoServicio.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\Servicio.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\servicioImpl\ClienteServicioImpl.java
+C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\servicioImpl\EncargadoInventarioServicioImpl.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\servicioImpl\EncargadoVentaServicioImpl.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\servicioImpl\ProductoServicioImpl.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Modelo\servicio\UsuarioServicio.java
@@ -49,6 +53,7 @@ C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\briann
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Vista\MenuClienteVista.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Vista\MenuEncargadoInventarioVista.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Vista\MenuEncargadoVentaVista.java
+C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Vista\MisVentasVista.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Vista\Perfil.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Vista\RegistrarProductoVista.java
 C:\Users\Usuario\Documents\NetBeansProjects\brianna_app\src\main\java\com\brianna\catalogo_ventas\v1\Vista\RegistrarProveedorVista.java

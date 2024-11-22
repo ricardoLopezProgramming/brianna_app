@@ -10,7 +10,6 @@ import java.awt.event.ActionListener;
 public class ServiciosControlador implements ActionListener {
 
     private Vista vista;
-    CatalogoControlador catalogo;
 
     public ServiciosControlador(Vista vista) {
         this.vista = vista;
@@ -24,8 +23,10 @@ public class ServiciosControlador implements ActionListener {
             vista.menuEncargadoVentaVista.btnClientes.addActionListener(this);
             vista.menuEncargadoVentaVista.btnReportes.addActionListener(this);
             vista.menuEncargadoVentaVista.btnCerrarSesion.addActionListener(this);
+        } else if (vista.menuEncargadoInventarioVista != null) {
+
         }
-        catalogo = new CatalogoControlador(vista);
+
     }
 
     @Override
@@ -51,20 +52,19 @@ public class ServiciosControlador implements ActionListener {
         } else if (vista.menuEncargadoVentaVista != null) {
             if (e.getSource() == vista.menuEncargadoVentaVista.btnPerfil) {
                 if (vista.catalogoVista.getParent() != vista.contenedorServiciosVista) {
-                    vista.catalogo();
-                    CatalogoControlador catalogo = new CatalogoControlador(vista);
+
                 }
             } else if (e.getSource() == vista.menuEncargadoVentaVista.btnMisVentas) {
                 if (vista.comprasVista == null || vista.comprasVista.getParent() != vista.contenedorServiciosVista) {
                     vista.compras();
-                    
+
                 }
             } else if (e.getSource() == vista.menuEncargadoVentaVista.btnClientes) {
                 if (vista.registrarProductoVista == null || vista.registrarProductoVista.getParent() != vista.contenedorServiciosVista) {
                     vista.registroProducto();
 
                 }
-            }else if (e.getSource() == vista.menuEncargadoVentaVista.btnReportes) {
+            } else if (e.getSource() == vista.menuEncargadoVentaVista.btnReportes) {
                 if (vista.registrarProductoVista == null || vista.registrarProductoVista.getParent() != vista.contenedorServiciosVista) {
                     vista.registroProducto();
 
@@ -73,6 +73,8 @@ public class ServiciosControlador implements ActionListener {
                 vista.initContent();
                 //}
             }
+        } else if (vista.menuEncargadoInventarioVista != null) {
+
         }
     }
 

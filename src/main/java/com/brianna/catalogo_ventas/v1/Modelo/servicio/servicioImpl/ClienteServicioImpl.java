@@ -16,48 +16,47 @@ public class ClienteServicioImpl implements ClienteServicio {
 
     @Override
     public Cliente filtrarPorUsuario(String usuario) {
-        return null;
+        return clienteDAOImpl.getUserByUsername(usuario);
     }
 
     @Override
     public Cliente iniciarSesion(String usuario, String contraseña) {
-                return null;
-
+        return clienteDAOImpl.getUserByUsernameAndPassword(usuario, contraseña);
     }
 
     @Override
     public void eliminarUsuario(String usuario, String contraseña) {
+        clienteDAOImpl.deleteUserByUsernameAndPassword(usuario, contraseña);
     }
 
     @Override
     public Cliente filtrarPorId(Long id) {
-                return null;
-
+        return clienteDAOImpl.selectByID(id);
     }
 
     @Override
     public List<Cliente> filtrarPorAtributo(String atributo) {
-                return null;
-
+        return clienteDAOImpl.selectByAnyAtributte(atributo);
     }
 
     @Override
     public List<Cliente> listarRegistros() {
-                return null;
-
+        return clienteDAOImpl.selectALL();
     }
 
     @Override
     public void registrar(Cliente entidad) {
+        clienteDAOImpl.insert(entidad);
     }
 
     @Override
     public void actualizarRegistroPorID(Long id) {
+        clienteDAOImpl.updateByID(id);
     }
 
     @Override
     public void eliminarRegistro(Long id) {
+        clienteDAOImpl.deleteByID(id);
     }
-
 
 }

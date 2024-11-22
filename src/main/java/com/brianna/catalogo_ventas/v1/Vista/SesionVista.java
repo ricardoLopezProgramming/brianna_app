@@ -22,7 +22,7 @@ public class SesionVista extends javax.swing.JPanel {
         cbxUsuario = new javax.swing.JComboBox<>();
         img1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 255, 102));
+        setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(1080, 728));
 
         jLabel5.setFont(new java.awt.Font("Quicksand Medium", 0, 36)); // NOI18N
